@@ -12,10 +12,6 @@ export class WelcomeComponent implements OnInit, OnDestroy {
     console.log("constructor")
   }
 
-  // ngOnChanges(changes: SimpleChanges): void {
-  //     console.log("on change")
-  // }
-
 
   ngOnInit(): void {
     console.log("on Init");
